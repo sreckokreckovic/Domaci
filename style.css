@@ -1,0 +1,29 @@
+table{
+    width: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    
+    
+}
+thead{
+    
+    font-weight: bold;
+    
+}
+h1{
+    color: grey;
+    font-size: 28px;
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: #E9ECEF;
+}
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+thead tr td{
+    border-collapse: collapse;
+    border:  solid
+}
